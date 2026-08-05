@@ -11,7 +11,7 @@ tags:
   - "产品/企业AI"
 version: "0.3-release-candidate"
 updated: 2026-08-05
-status: "发布候选（署名与许可待确认）"
+status: "内容更新ing"
 ---
 
 # AI Native Builder：把 AI 变成组织能力
