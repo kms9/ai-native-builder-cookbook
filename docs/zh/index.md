@@ -25,15 +25,6 @@ features:
     details: "用试点行为、人工负担、风险和长期维护责任决定继续、收缩或停止。"
 ---
 
-## 当前版本与发布边界
-
-<div class="release-strip">
-  <span>v0.3.0-rc.1</span>
-  <strong>公开评审稿（发布候选）</strong>
-</div>
-
-这是可以公开试读和反馈的发布候选版本，不代表已经完成独立试读、专业审读或正式版本发布。
-
 ## 四部分学习路径
 
 1. **角色为什么出现**：理解企业 AI 建设中的责任断层，以及外部 FDE 与内部 AI Native Builder 的合作边界。
@@ -49,6 +40,15 @@ features:
 - [参考资料](./reference/references.md)
 - [配套 PDF 说明](./about/companion-pdf.md)
 - [下载《从 SOP 到智能体应用》PDF](/downloads/sop-to-agent-application.pdf)
+
+## 当前版本与发布边界
+
+<div class="release-strip">
+  <span>v0.3.0-rc.1</span>
+  <strong>公开评审稿（发布候选）</strong>
+</div>
+
+这是可以公开试读和反馈的发布候选版本，不代表已经完成独立试读、专业审读或正式版本发布。
 
 ## 开放阅读与反馈
 
