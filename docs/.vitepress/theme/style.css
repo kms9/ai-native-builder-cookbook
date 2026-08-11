@@ -1,0 +1,73 @@
+:root {
+  --vp-c-bg: #faf9f5;
+  --vp-c-bg-alt: #f4f3ee;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-soft: #f4f3ee;
+  --vp-c-text-1: #1a1a1a;
+  --vp-c-text-2: #4a4a4a;
+  --vp-c-text-3: #757575;
+  --vp-c-brand-1: #d95c41;
+  --vp-c-brand-2: #c14e36;
+  --vp-c-brand-3: #a8412b;
+  --vp-c-brand-soft: rgb(217 92 65 / 10%);
+  --vp-sidebar-width: 296px;
+  --vp-sidebar-bg-color: #f4f3ee;
+  --vp-nav-bg-color: #faf9f5;
+  --vp-layout-max-width: 1376px;
+  --vp-font-family-base: Inter, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --vp-font-family-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+}
+
+.dark {
+  --vp-c-bg: #1a1a1a;
+  --vp-c-bg-alt: #141414;
+  --vp-c-bg-elv: #242424;
+  --vp-c-bg-soft: #202020;
+  --vp-c-text-1: #e5e5e5;
+  --vp-c-text-2: #b3b3b3;
+  --vp-c-text-3: #808080;
+  --vp-c-brand-1: #e07a64;
+  --vp-c-brand-2: #d95c41;
+  --vp-c-brand-3: #c14e36;
+  --vp-c-brand-soft: rgb(224 122 100 / 15%);
+  --vp-sidebar-bg-color: #141414;
+  --vp-nav-bg-color: #1a1a1a;
+}
+
+.vp-doc {
+  font-size: 16px;
+  line-height: 1.78;
+}
+
+.vp-doc h1,
+.vp-doc h2,
+.VPHomeHero .name,
+.VPHomeHero .text {
+  font-family: Newsreader, "Noto Serif SC", "Songti SC", STSong, serif;
+  font-weight: 500;
+}
+
+.vp-doc h1 { font-size: clamp(2.25rem, 5vw, 3.5rem); line-height: 1.12; }
+.vp-doc h2 { border-bottom: 1px solid var(--vp-c-divider); padding-bottom: .4rem; }
+.VPNav { background: var(--vp-nav-bg-color); }
+.VPSidebar { background: var(--vp-sidebar-bg-color); }
+.VPHomeHero .tagline { max-width: 720px; line-height: 1.7; }
+.VPFeature { border: 1px solid var(--vp-c-divider); background: var(--vp-c-bg-elv); }
+.VPButton.brand { border-color: var(--vp-c-brand-1); background: var(--vp-c-brand-1); }
+.release-strip {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+  margin: 1.5rem 0 2.5rem;
+  padding: .8rem 1rem;
+  border: 1px solid var(--vp-c-brand-soft);
+  border-left: 4px solid var(--vp-c-brand-1);
+  border-radius: 8px;
+  background: var(--vp-c-brand-soft);
+}
+.release-strip span { font-family: var(--vp-font-family-mono); }
+
+@media (max-width: 767px) {
+  .vp-doc { font-size: 15px; }
+  .release-strip { align-items: flex-start; flex-direction: column; }
+}
