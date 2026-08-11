@@ -171,7 +171,7 @@ FDE 让供应方工程师靠近客户的真实工作，对从发现到生产采�
 
 下一章将从这次交接开始，区分外部 FDE 与内部 AI Native Builder 的组织位置、目标、责任和合作边界。两者处理相邻问题，但不是同一岗位的前后演进。
 
-[下一章：外部 FDE 与内部 AI Native Builder](03-外部FDE与内部AI-Native-Builder.md)
+[下一章：外部 FDE 与内部 AI Native Builder](./03-fde-and-ai-native-builder.md)
 
 ## 本章来源
 

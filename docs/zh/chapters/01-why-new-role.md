@@ -191,7 +191,7 @@ AI Native Builder 由此出现：他负责推动一条端到端建设链，让�
 
 下一章将介绍外部合作方一侧的 Forward Deployed Engineer。我们会看 FDE 怎样把供应方的工程能力带到客户现场、完成生产交付并反馈产品。理解这份外部责任后，第 3 章才能更清楚地定义企业内部 AI Native Builder 的位置。
 
-继续阅读：[第 2 章：FDE 是什么](02-FDE是什么.md)。
+继续阅读：[第 2 章：FDE 是什么](./02-what-is-fde.md)。
 
 ## 本章来源
 

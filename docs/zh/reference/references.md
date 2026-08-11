@@ -39,7 +39,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜事实或定义**
 - 来源：[Forward Deployed Engineer (FDE) - Seattle](https://openai.com/careers/forward-deployed-engineer-%28fde%29-seattle-seattle/)
-- 对应章节：[第 1 章](01-为什么企业AI需要新的建设角色.md)、[第 2 章](02-FDE是什么.md)、[第 3 章](03-外部FDE与内部AI-Native-Builder.md)
+- 对应章节：[第 1 章](../chapters/01-why-new-role.md)、[第 2 章](../chapters/02-what-is-fde.md)、[第 3 章](../chapters/03-fde-and-ai-native-builder.md)
 - 本书用途：理解供应方客户交付角色在发现、技术范围、系统设计、构建、生产发布、采用、工作流影响和产品反馈上的责任。
 - 边界：这是一份会变化的招聘页面，只代表核验时该岗位的公开描述，不能代表所有公司的 FDE 定义，也不能作为 AI Native Builder 的概念来源。
 
@@ -47,7 +47,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜事实或定义**
 - 来源：[Students and Early Talent](https://www.palantir.com/careers/students-and-early-talent/)
-- 对应章节：[第 2 章](02-FDE是什么.md)
+- 对应章节：[第 2 章](../chapters/02-what-is-fde.md)
 - 本书用途：核对 Palantir 对 Software Engineer 与 Forward Deployed Software Engineer 的公开区分，以及 FDSE 面向客户技术与运营结果的表述。
 - 边界：该页面面向学生和早期职业招聘，不是完整的行业角色标准。
 
@@ -55,7 +55,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜事实或定义**
 - 来源：[Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs](https://www.anthropic.com/news/enterprise-ai-services-company)
-- 对应章节：[第 1 章](01-为什么企业AI需要新的建设角色.md)、[第 3 章](03-外部FDE与内部AI-Native-Builder.md)
+- 对应章节：[第 1 章](../chapters/01-why-new-role.md)、[第 3 章](../chapters/03-fde-and-ai-native-builder.md)
 - 本书用途：说明把 AI 放进重要运营，需要现场工程、业务运行知识、定制系统和持续支持。
 - 边界：这是 Anthropic 对一项企业服务安排的公告，不能单独证明所有企业都需要相同组织模式。
 
@@ -65,7 +65,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜事实或定义**
 - 来源：[A practical guide to building agents](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/)
-- 对应章节：[第 4 章](04-为什么智能体时代更需要AI-Native-Builder.md)、[第 7 章](07-把业务变成可运行系统.md)
+- 对应章节：[第 4 章](../chapters/04-agent-era-builder.md)、[第 7 章](../chapters/07-runnable-system.md)
 - 本书用途：理解 Agent、工具、指令、编排、Guardrail、人工介入，以及何时不需要 Agent。
 - 边界：本书的逐动作权限划分和系统契约并非该指南原有分级。
 
@@ -73,7 +73,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜事实或定义**
 - 来源：[Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
-- 对应章节：[第 4 章](04-为什么智能体时代更需要AI-Native-Builder.md)
+- 对应章节：[第 4 章](../chapters/04-agent-era-builder.md)
 - 本书用途：区分预定义代码路径的 Workflow 与由模型动态决定过程和工具使用的 Agent，并理解从简单方案开始的工程取舍。
 - 边界：本书对确定性自动化、LLM 工作流和逐动作权限的组合是教学整理。
 
@@ -99,7 +99,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜方法参考**
 - 来源：[User research in discovery](https://www.gov.uk/service-manual/user-research/user-research-in-discovery)
-- 对应章节：[第 5 章](05-从工具愿望到可验证场景.md)
+- 对应章节：[第 5 章](../chapters/05-verifiable-scenario.md)
 - 本书用途：支持在解决方案确定前理解用户、任务、需求和约束。
 - 边界：本书的证据日志、机会池和“问题是否值得继续”这一决定是课程设计，不是 GOV.UK 的统一表单。
 
@@ -107,7 +107,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜方法参考**
 - 来源：[Identifying and scaling AI use cases](https://openai.com/business/guides-and-resources/identifying-and-scaling-ai-use-cases/)
-- 对应章节：[第 5 章](05-从工具愿望到可验证场景.md)
+- 对应章节：[第 5 章](../chapters/05-verifiable-scenario.md)
 - 本书用途：补充从业务问题、价值和可实施性判断 AI 用例的公开方法。
 - 边界：本书不会把供应商指南中的建议写成已经验证的行业收益。
 
@@ -115,7 +115,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜方法参考**
 - 来源：[Solve a whole problem for users](https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem)
-- 对应章节：[第 6 章](06-重构人AI系统工作流.md)
+- 对应章节：[第 6 章](../chapters/06-workflow-redesign.md)
 - 本书用途：支持围绕用户任务和完整旅程设计服务，不围绕预选技术堆功能。
 - 边界：该指南服务于英国政府数字服务，本书只迁移其问题导向原则。
 
@@ -123,7 +123,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜方法参考**
 - 来源：[Making prototypes](https://www.gov.uk/service-manual/design/making-prototypes)
-- 对应章节：[第 6 章](06-重构人AI系统工作流.md)
+- 对应章节：[第 6 章](../chapters/06-workflow-redesign.md)
 - 本书用途：支持在投入生产建设前，用合适保真度的原型探索和测试设计。
 - 边界：澄川的“五分钟原型”结构是本书示范，不是 GOV.UK 的固定时长。
 
@@ -132,7 +132,7 @@ updated: 2026-08-10
 - 来源类型：**正文直接引用｜方法参考**
 - 来源：[Errors + Graceful Failure](https://pair.withgoogle.com/chapter/errors-failing/)
 - 来源：[Feedback + Control](https://pair.withgoogle.com/guidebook-v2/chapter/feedback-controls/)
-- 对应章节：[第 6 章](06-重构人AI系统工作流.md)
+- 对应章节：[第 6 章](../chapters/06-workflow-redesign.md)
 - 本书用途：理解 AI 错误怎样影响用户，以及产品怎样提供反馈、控制和恢复路径。
 - 边界：本书的人机责任矩阵和异常表是针对连续案例的教学整理。
 
@@ -142,7 +142,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜事实或定义**
 - 来源：[Tracing](https://openai.github.io/openai-agents-python/tracing/)
-- 对应章节：[第 7 章](07-把业务变成可运行系统.md)、[第 8 章](08-用评估与治理证明系统可控.md)
+- 对应章节：[第 7 章](../chapters/07-runnable-system.md)、[第 8 章](../chapters/08-evaluation-and-governance.md)
 - 本书用途：理解运行轨迹怎样记录 Agent、模型、工具和 Guardrail 活动。
 - 边界：本书的轨迹结构不要求使用 OpenAI Agents SDK；敏感数据记录仍需按项目另行设计。
 
@@ -150,7 +150,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜事实或定义**
 - 来源：[Idempotent requests](https://docs.stripe.com/api/idempotent_requests)
-- 对应章节：[第 7 章](07-把业务变成可运行系统.md)
+- 对应章节：[第 7 章](../chapters/07-runnable-system.md)
 - 本书用途：提供写入请求使用幂等键的具体实现参考。
 - 边界：Stripe 的 API 语义不能直接复制到任意 CRM 或内部系统；未知状态还需要目标系统支持查询或协调。
 
@@ -158,7 +158,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜方法参考**
 - 来源：[Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
-- 对应章节：[第 8 章](08-用评估与治理证明系统可控.md)
+- 对应章节：[第 8 章](../chapters/08-evaluation-and-governance.md)
 - 本书用途：理解任务规格、运行记录、代码评分器、模型评分器、人工评分器、能力评估和回归评估怎样配合。
 - 边界：澄川的 24 个样本、通过条件和必须停止的问题是教学案例设计，不是 Anthropic 推荐的统一数量。
 
@@ -168,7 +168,7 @@ updated: 2026-08-10
 - 来源：[AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 - 来源：[AI RMF Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/)
 - 来源：[AI RMF Playbook](https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook)
-- 对应章节：[第 8 章](08-用评估与治理证明系统可控.md)、[第 10 章](10-把一次项目变成组织能力.md)、[第 11 章](11-毕业项目与自我认证.md)
+- 对应章节：[第 8 章](../chapters/08-evaluation-and-governance.md)、[第 10 章](../chapters/10-organizational-capability.md)、[第 11 章](../chapters/11-capstone-and-review.md)
 - 本书用途：提供 Govern、Map、Measure、Manage 和全生命周期风险管理背景。
 - 边界：AI RMF 是自愿使用的风险管理框架；本书的项目阶段决定不能冒充 NIST 认证或合规结论。
 
@@ -180,7 +180,7 @@ updated: 2026-08-10
 - 来源：[How the beta phase works](https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works)
 - 来源：[Measuring completion rate](https://www.gov.uk/service-manual/measuring-success/measuring-completion-rate)
 - 来源：[Measuring the success of your service](https://www.gov.uk/service-manual/measuring-success/measuring-the-success-of-your-service)
-- 对应章节：[第 9 章](09-从试点到真实采用.md)
+- 对应章节：[第 9 章](../chapters/09-pilot-to-adoption.md)
 - 本书用途：支持有限用户试运行、持续研究和迭代，以及把未完成和失败任务保留在完成率分母中。
 - 边界：GOV.UK 的服务阶段不是企业 AI 项目的统一流程；本书的采用漏斗和试点后续选项属于教学框架。
 
@@ -188,7 +188,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜方法参考**
 - 来源：[Have a multidisciplinary team](https://www.gov.uk/service-manual/service-standard/point-6-have-a-multidisciplinary-team)
-- 对应章节：[第 10 章](10-把一次项目变成组织能力.md)
+- 对应章节：[第 10 章](../chapters/10-organizational-capability.md)
 - 本书用途：支持服务团队需要业务、设计、技术、运营和分析等多种能力，而不是让单一角色包办所有判断。
 - 边界：实际角色配置取决于组织、任务和风险。
 
@@ -196,7 +196,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜方法参考**
 - 来源：[Postmortem Culture: Learning from Failure](https://sre.google/workbook/postmortem-culture/)
-- 对应章节：[第 10 章](10-把一次项目变成组织能力.md)
+- 对应章节：[第 10 章](../chapters/10-organizational-capability.md)
 - 本书用途：支持从事故中形成行动项、负责人和组织学习，而不是把复盘写成个人归责。
 - 边界：本书的复用检查、支持时间和资产登记不是 Google SRE 规定。
 
@@ -214,7 +214,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜事实或定义**
 - 来源：[Open Badges](https://www.1edtech.org/standards/open-badges)
-- 对应章节：[第 11 章](11-毕业项目与自我认证.md)
+- 对应章节：[第 11 章](../chapters/11-capstone-and-review.md)
 - 本书用途：说明数字凭证需要发行者、标准、证据和可验证声明之间的关系。
 - 边界：本书没有采用 Open Badges，也没有授权任何人用本书名义签发行业资格。
 
@@ -222,7 +222,7 @@ updated: 2026-08-10
 
 - 来源类型：**正文直接引用｜方法参考**
 - 来源：[Code of Ethics and Professional Conduct](https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf)
-- 对应章节：[第 11 章](11-毕业项目与自我认证.md)
+- 对应章节：[第 11 章](../chapters/11-capstone-and-review.md)
 - 本书用途：支持技术人员诚实说明系统能力、限制、潜在问题和自身资格边界。
 - 边界：本书对作品集评审的设计不代表 ACM 对学习者进行认证。
 
@@ -230,7 +230,7 @@ updated: 2026-08-10
 
 - 来源类型：**延伸阅读｜机构观点**
 - 来源：[Higher Ed Course Design Rubric](https://www.qualitymatters.org/qa-resources/rubric-standards/higher-ed-rubric)
-- 对应主题：[第 0 章](00-如何使用这本书.md)、练习册和全书学习设计。
+- 对应主题：[第 0 章](../chapters/00-getting-started.md)、练习册和全书学习设计。
 - 本书用途：参考学习目标、材料、活动和评价之间的对应关系。
 - 边界：本书未申请或获得 Quality Matters 评审或认证。
 
@@ -246,22 +246,22 @@ updated: 2026-08-10
 ### 第 6A 章与配套 22 页图解
 
 - 来源类型：**作者原创配套材料**
-- 对应章节：[第 6A 章](06A-从SOP到智能体约束.md)和 [SOP 到智能体约束转化卡](模板-SOP到智能体约束转化卡.md)。
-- 当前状态：[《从 SOP 到智能体应用》](share_src/从SOP梳理到智能体应用.pdf)由 kms9 原创，是第 6A 章配套资料；图解正文共 22 页，PDF 另附作者与许可页。
+- 对应章节：[第 6A 章](../chapters/06a-sop-to-agent-constraints.md)和 [SOP 到智能体约束转化卡](../practice/sop-to-agent-card.md)。
+- 当前状态：[《从 SOP 到智能体应用》](/downloads/sop-to-agent-application.pdf)由 kms9 原创，是第 6A 章配套资料；图解正文共 22 页，PDF 另附作者与许可页。
 - 许可：本章与配套 PDF 均采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)许可。
 - 边界：图解支持本书的方法解释，不应被写成外部行业标准或第三方机构背书。
 
 ### Skill 仓库内部实践案例
 
 - 来源类型：**内部实践的脱敏教学改写**
-- 对应材料：[案例 A](案例A-从多维表需求到MR与上线.md)、[实践旁注](实践旁注-内部Skill仓库交付闭环.md)和[练习册扩展](练习册扩展-需求分流与自动交付.md)。
+- 对应材料：[案例 A](../practice/case-a-delivery.md)、[实践旁注](../practice/delivery-notes.md)和[练习册扩展](../practice/delivery-workbook.md)。
 - 当前状态：材料由 kms9 根据内部 Skill 仓库交付实践整理。公开版本删除了真实组织、人员、平台、日期和任务标识，部分事件经过合并与顺序调整。
 - 边界：用于说明方法、失败和责任边界；不用于声明某个组织的运行时长、生产成功率、总体 ROI 或跨团队复用结果。
 
 ## 内容、引用与授权边界
 
-本公开稿由作者及原创内容权利人 kms9 组织。本书章节、练习册、模板、原创教学案例和原创配套 PDF 采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)许可，具体范围见 [LICENSE](LICENSE)。
+本公开稿由作者及原创内容权利人 kms9 组织。本书章节、练习册、模板、原创教学案例和原创配套 PDF 采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)许可，具体范围见 [LICENSE](https://github.com/kms9/ai-native-builder-cookbook/blob/main/LICENSE)。
 
 外部 FDE 材料只用于说明供应方客户交付角色及其与内部建设责任的边界，不复制其章节、案例或受限正文。外部网页、标准、文章、商标及其他被引用材料仍归各自权利人；链接不表示权利转移或来源机构背书。
 
-[返回课程首页](README.md) · [打开练习册](练习册与检查清单.md) · [查看术语表](术语表.md)
+[返回课程首页](../index.md) · [打开练习册](../practice/workbook.md) · [查看术语表](./glossary.md)

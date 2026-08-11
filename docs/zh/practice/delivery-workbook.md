@@ -16,9 +16,9 @@ updated: 2026-08-10
 
 本扩展配合以下内容使用：
 
-- [实践案例｜从多维表需求到 MR 与上线](案例A-从多维表需求到MR与上线.md)
-- [实践旁注｜Skill 仓库交付闭环](实践旁注-内部Skill仓库交付闭环.md)
-- [AI Native Builder 练习册与检查清单](练习册与检查清单.md)
+- [实践案例｜从多维表需求到 MR 与上线](./case-a-delivery.md)
+- [实践旁注｜Skill 仓库交付闭环](./delivery-notes.md)
+- [AI Native Builder 练习册与检查清单](./workbook.md)
 
 它不替代主练习册，而是为“业务反馈进入团队 Skill 仓库、Agent 修改代码并经过 MR / CI / 发布”的场景补充一组工程化模板。
 
