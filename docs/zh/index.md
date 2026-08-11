@@ -5,7 +5,7 @@ description: "一本面向企业内部建设者的公开自学书。"
 hero:
   name: "AI Native Builder"
   text: "把 AI 变成组织能力"
-  tagline: "从真实业务问题出发，重构工作流，构建、评估和治理可运行的 AI 系统。"
+  tagline: "从真实业务问题出发，重构工作流，构建、运行、评估和治理可信赖的 AI 系统。"
   image:
     src: /logo.svg
     alt: "AI Native Builder"
