@@ -8,6 +8,10 @@ const exists = async relative => access(path.join(root, relative)).then(() => tr
 
 test('正文和配套资料已经迁入 docs/zh', async () => {
   assert.equal(await exists('docs/zh/chapters/00-getting-started.md'), true)
+  assert.equal(await exists('docs/zh/chapters/04a-business-world.md'), true)
+  assert.equal(await exists('docs/zh/chapters/04b-knowledge-and-ontology.md'), true)
+  assert.equal(await exists('docs/zh/chapters/04c-agent-capability-architecture.md'), true)
+  assert.equal(await exists('docs/zh/chapters/10a-organizational-learning-loop.md'), true)
   assert.equal(await exists('docs/zh/chapters/11-capstone-and-review.md'), true)
   assert.equal(await exists('docs/zh/practice/workbook.md'), true)
   assert.equal(await exists('docs/zh/reference/references.md'), true)
@@ -26,11 +30,12 @@ test('根目录不再保留第二份正文', async () => {
 
 test('首页版本说明位于开放阅读与反馈之前', async () => {
   const homepage = await readFile(path.join(root, 'docs/zh/index.md'), 'utf8')
-  const learningPath = homepage.indexOf('## 四部分学习路径')
+  const learningPath = homepage.indexOf('## 五部分学习路径')
   const materials = homepage.indexOf('## 配套材料')
   const releaseBoundary = homepage.indexOf('## 当前版本与发布边界')
   const feedback = homepage.indexOf('## 开放阅读与反馈')
 
+  assert.ok(learningPath >= 0)
   assert.ok(learningPath < materials)
   assert.ok(materials < releaseBoundary)
   assert.ok(releaseBoundary < feedback)
