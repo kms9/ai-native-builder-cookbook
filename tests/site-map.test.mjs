@@ -8,10 +8,14 @@ import {
   allPublicPages
 } from '../docs/.vitepress/site-map.mjs'
 
-test('正文保持第 0—11 章和第 6A 章共 13 页', () => {
-  assert.equal(chapters.length, 13)
+test('正文保持第 0—11 章主线，并纳入 4A—4C、6A 和 10A', () => {
+  assert.equal(chapters.length, 17)
   assert.equal(chapters[0].link, '/zh/chapters/00-getting-started')
-  assert.equal(chapters[7].link, '/zh/chapters/06a-sop-to-agent-constraints')
+  assert.equal(chapters[5].link, '/zh/chapters/04a-business-world')
+  assert.equal(chapters[6].link, '/zh/chapters/04b-knowledge-and-ontology')
+  assert.equal(chapters[7].link, '/zh/chapters/04c-agent-capability-architecture')
+  assert.equal(chapters[10].link, '/zh/chapters/06a-sop-to-agent-constraints')
+  assert.equal(chapters[15].link, '/zh/chapters/10a-organizational-learning-loop')
   assert.equal(chapters.at(-1).link, '/zh/chapters/11-capstone-and-review')
 })
 
