@@ -4,6 +4,9 @@ export const chapters = [
   { text: '第 2 章｜FDE 是什么', link: '/zh/chapters/02-what-is-fde' },
   { text: '第 3 章｜外部 FDE 与内部 AI Native Builder', link: '/zh/chapters/03-fde-and-ai-native-builder' },
   { text: '第 4 章｜为什么智能体时代更需要 AI Native Builder', link: '/zh/chapters/04-agent-era-builder' },
+  { text: '第 4A 章｜先把 AI 放回真实业务世界', link: '/zh/chapters/04a-business-world' },
+  { text: '第 4B 章｜让 AI 读懂同一个业务世界', link: '/zh/chapters/04b-knowledge-and-ontology' },
+  { text: '第 4C 章｜把业务能力交给 Workflow 与 Agent', link: '/zh/chapters/04c-agent-capability-architecture' },
   { text: '第 5 章｜从工具愿望到可验证场景', link: '/zh/chapters/05-verifiable-scenario' },
   { text: '第 6 章｜重构人—AI—系统工作流', link: '/zh/chapters/06-workflow-redesign' },
   { text: '第 6A 章｜从 SOP 到智能体约束', link: '/zh/chapters/06a-sop-to-agent-constraints' },
@@ -11,6 +14,7 @@ export const chapters = [
   { text: '第 8 章｜用评估与治理证明系统可控', link: '/zh/chapters/08-evaluation-and-governance' },
   { text: '第 9 章｜从试点到真实采用', link: '/zh/chapters/09-pilot-to-adoption' },
   { text: '第 10 章｜把一次项目变成组织能力', link: '/zh/chapters/10-organizational-capability' },
+  { text: '第 10A 章｜让每次执行反过来改进系统', link: '/zh/chapters/10a-organizational-learning-loop' },
   { text: '第 11 章｜毕业项目与自我认证', link: '/zh/chapters/11-capstone-and-review' }
 ]
 
@@ -59,9 +63,10 @@ export const topNav = [
 
 export const sidebar = [
   { text: '第一部分：角色为什么出现', items: chapters.slice(0, 5) },
-  { text: '第二部分：完成一次端到端建设', items: chapters.slice(5, 10) },
-  { text: '第三部分：从试点走向组织能力', items: chapters.slice(10, 12) },
-  { text: '第四部分：用作品说明能力', items: chapters.slice(12) },
+  { text: '第二部分：看见 AI 系统背后的企业', items: chapters.slice(5, 8) },
+  { text: '第三部分：完成一次端到端建设', items: chapters.slice(8, 13) },
+  { text: '第四部分：从试点走向组织能力', items: chapters.slice(13, 16) },
+  { text: '第五部分：用作品说明能力', items: chapters.slice(16) },
   { text: '实践材料', items: practicePages },
   { text: '查阅资料', items: referencePages }
 ]
